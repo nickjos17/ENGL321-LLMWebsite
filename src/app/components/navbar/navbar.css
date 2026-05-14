@@ -1,0 +1,14 @@
+.nav-link {
+  transition: all 0.2s ease-in-out;
+  color: #444746;
+}
+
+.nav-link:hover:not(.active-light) {
+  color: #1f1f1f;
+  background-color: #dfe3eb;
+}
+
+.active-light {
+  color: #0b57d0;
+  background-color: #d3e3fd;
+}
