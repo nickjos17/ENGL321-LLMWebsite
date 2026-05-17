@@ -1,48 +1,46 @@
-<div class="row g-4">
-  <div class="col-md-6">
-    <!-- Start of Electricity Card-->
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-body">
-        <h4 class="card-title text-warning mb-3">
-          <i class="bi bi-lightning-charge"></i> Electricity
-        </h4>
-        <!-- List of Stats for the Card-->
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item px-0 py-2 text-muted">
-            <Strong>Stat 1:</Strong> In 2023, the United States consumed an estimated 176 tera-watt hours of electricity.
-          </li>
-          <li class="list-group-item px-0 py-2 text-muted">
-            <strong>Stat 2:</strong> Thats enough electricity to power 17 million households.
-          </li>
-          <li class="list-group-item px-0 py-2 text-muted">
-            <strong>Stat 3:</strong> Alternatively, that electricity could be used to convert 25% of all gas vehicles to electric.
-          </li>
-        </ul>
+<div class="container py-4 d-flex flex-column gap-4">
+  
+  <div class="row g-4">
+    <!-- Electricity Column -->
+    <div class="col-md-6">
+      <div class="p-4 rounded-4 shadow-sm border border-white h-100" style="background-color: #ffffff;">
+        <h3 class="fs-4 fw-medium text-warning mb-3 d-flex align-items-center">
+          <i class="bi bi-lightning-charge-fill me-2"></i> Electricity
+        </h3>
+        <p class="small text-secondary mb-2"><strong>Stat 1:</strong> In 2023, the United States consumed an estimated 176 tera-watt hours of electricity.</p>
+        <p class="small text-secondary mb-2"><strong>Stat 2:</strong> Thats enough electricity to power 17 million households.</p>
+        <p class="small text-secondary mb-0"><strong>Stat 3:</strong> Alternatively, that electricity could be used to convert 25% of all gas vehicles to electric.</p>
+      </div>
+    </div>
+
+    <!-- Water Column -->
+    <div class="col-md-6">
+      <div class="p-4 rounded-4 shadow-sm border border-white h-100" style="background-color: #ffffff;">
+        <h3 class="fs-4 fw-medium text-primary mb-3 d-flex align-items-center">
+          <i class="bi bi-droplet-fill me-2"></i> Water
+        </h3>
+        <p class="small text-secondary mb-2"><strong>Stat 1:</strong> Water consumption has a similar problem, with estimated annual water consumption of data centers equating to over a million households.</p>
+        <p class="small text-secondary mb-2"><strong>Stat 2:</strong> Water consumed by data centers is over 50% potable water.</p>
+        <p class="small text-secondary mb-0"><strong>Stat 3:</strong> Unlike electricity, water is not renewable. We only have so much potable water and data centers just keep drinking.</p>
       </div>
     </div>
   </div>
 
-
-  <div class="col-md-6">
-    <!-- Start of Water Card-->
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-body">
-        <h4 class="card-title text-info mb-3">
-          <i class="bi bi-droplet"></i> Water
-        </h4>
-        <!-- List of Stats for the Card-->
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item px-0 py-2 text-muted">
-            <Strong>Stat 1:</Strong> Water consumption has a similar problem, with estimated annual water consumption of data centers equating to over a million households.
-          </li>
-          <li class="list-group-item px-0 py-2 text-muted">
-            <strong>Stat 2:</strong> Water consumed by data centers is over 50% potable water.
-          </li>
-          <li class="list-group-item px-0 py-2 text-muted">
-            <strong>Stat 3:</strong> Unlike electricity, water is not renewable. We only have so much potable water and data centers just keep drinking.
-          </li>
-        </ul>
-      </div>
+  <!-- Full-Width Paragraph Text Box Card -->
+  <div class="row">
+  <div class="col-12">
+    <div class="p-4 rounded-4 shadow-sm border border-white" style="background-color: #ffffff;">
+      <h4 class="fs-5 fw-medium text-dark mb-3">The Energy-Water Relation in Data Center Warehouses</h4>
+      
+      <p class="small text-secondary lh-base mb-3">
+        As highlighted by the International Energy Agency (IEA, 2025) and Li et al. (2023), the environmental impact of large-scale AI computation is a dual-resource crisis where electricity and water consumption are both affected. Traditional server architectures generate high heat during workload, requiring continuous cooling mechanisms to maintain operational (Patel et al., 2002). This creates a dependency on local water networks for water cooling systems. 
+      </p>
+      
+      <p class="small text-secondary lh-base mb-0">
+        According to recent research estimates (Siddik et al.; Guidi et al., 2024), more than half of the water utilized directly on-site at these facilities is potable drinking water. Unlike energy grids, which can slowly transition toward renewable solar or wind sources (Ewim et al., 2023), freshwater consumption is just a  depletion of reservoirs (Gorey, 2026).
+      </p>
     </div>
   </div>
+</div>
+
 </div>
